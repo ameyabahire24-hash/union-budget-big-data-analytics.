@@ -23,7 +23,7 @@ This repository contains code, an exploratory dataset, summary tables, and a rep
    ```
    Alternatively, open `Union_Budget_PySpark_Analysis.ipynb` in Jupyter (with Java/PySpark installed).
 
-The full working CSV is also available as `data/Union_Budget_Analytical_Dataset.csv.gz`. The numbered `dataset_csv_gzip_b64_part_*.txt` files provide a text-only reconstruction method for `code/restore_dataset.py`.
+The full working CSV is stored as `data/Union_Budget_Analytical_Dataset.csv.gz`; run `python code/restore_dataset.py` to extract the CSV for analysis.
 
 ## Repository contents
 
@@ -31,7 +31,7 @@ The full working CSV is also available as `data/Union_Budget_Analytical_Dataset.
 - `code/pyspark_analysis.py` — runnable PySpark analysis.
 - `code/generate_graphs.py` — generates ten charts into `graphs/`.
 - `code/extract_budget_pdfs.py` — page-level text audit utility for source PDFs.
-- `code/restore_dataset.py` — restores the CSV from the encoded compressed archive parts.
+- `code/restore_dataset.py` — extracts the CSV from the compressed dataset.
 - `data/Union_Budget_Analytical_Dataset.csv.gz` — compressed 1,115-row working table.
 - `annual_summary.csv`, `sector_summary.csv` — exploratory summaries of recorded extracted values.
 - `docs/PROJECT_REPORT.md` — report draft and interpretation limits.
