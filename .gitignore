@@ -1,0 +1,7 @@
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+venv/
+budget_pdfs/
+pdf_page_text_audit.jsonl
+.DS_Store
