@@ -5,3 +5,5 @@ venv/
 budget_pdfs/
 pdf_page_text_audit.jsonl
 .DS_Store
+/data/Union_Budget_Analytical_Dataset.csv
+/graphs/*.png
