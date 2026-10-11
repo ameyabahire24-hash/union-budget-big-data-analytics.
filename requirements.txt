@@ -1,0 +1,7 @@
+pandas>=2.0
+openpyxl>=3.1
+matplotlib>=3.7
+pyspark>=3.5
+pymupdf>=1.23
+jupyter>=1.0
+python-docx>=1.1
